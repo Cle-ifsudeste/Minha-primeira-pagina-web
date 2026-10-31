@@ -1,0 +1,124 @@
+/* 1. Fonte e cor geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Cabeçalho */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #f1c40f;
+    margin: 0;
+}
+
+header p {
+    font-size: 16px;
+    color: #ecf0f1;
+}
+
+/* 7. Navegação */
+nav a {
+    color: #f1c40f;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* 3. Conteúdo e textos */
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 26px;
+    border-bottom: 2px solid #f1c40f;
+    padding-bottom: 5px;
+}
+
+/* Seletor de classe - requisito 3 */
+.lista-hobbies {
+    background-color: #fdf6e3;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border-left: 5px solid #f1c40f;
+}
+
+/* 4. Imagem */
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #2c3e50;
+    border-radius: 50%;
+    display: block;
+    margin: 15px 0;
+}
+
+/* 5. Formulário */
+#contato {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #eef2f7;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: 1px solid #aaa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #f1c40f;
+    color: #2c3e50;
+}
+
+/* 7. Rodapé */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
