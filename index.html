@@ -2,67 +2,53 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Página Pessoal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
     <header>
         <h1>Clemilda - futura programadora</h1>
-        <p>Estudante de Informàtica para Internet - IF Sudeste de MG - Barbacena </p>
+        <p>Estudante de Informática para Internet - IF Sudeste de MG - Barbacena</p>
     </header>
     <nav>
-        <a href="index.html">Início</a> |
+        <a href="index.html">Início</a>
         <a href="sobre.html">Sobre Mim</a>
     </nav>
     <main>
-      
         <section>
             <h2>Sobre Mim</h2>
-            <p>Meu nome é Clemilda, tenho 39 anos, moro Na cidade de Mariana MG. Atualmente estou cuesando administração, Análise e Desenvolvimento de Sistemas e Informática para Internet. Estou aprendendo sobre Banco de 
-                Dados, empreendedorismo, VisualG e HTML.</p>
+            <p>Meu nome é Clemilda, tenho 39 anos, moro na cidade de Mariana MG. Atualmente estou cursando administração, Análise e Desenvolvimento de Sistemas e Informática para Internet. Estou aprendendo sobre Banco de Dados, empreendedorismo, VisualG e HTML.</p>
             <img src="foto-perfil.jpg" alt="Foto da Clemilda" class="foto-perfil">
         </section>
 
         <section id="tecnologias">
-  <h2>Tecnologias e Interesses</h2>
-  <p>Estou aprendendo e me apaixonando por:</p>
+            <h2>Tecnologias e Interesses</h2>
+            <p>Estou aprendendo e me apaixonando por:</p>
+            <div class="cards">
+                <div class="card">
+                    <h3>HTML</h3>
+                    <p>Aprendendo a estruturar páginas web com tags e conteúdo.</p>
+                    <div class="tags"><span>HTML</span><span>Estrutura</span></div>
+                </div>
+                <div class="card">
+                    <h3>CSS</h3>
+                    <p>Aprendendo a deixar as páginas bonitas com cores e layout.</p>
+                    <div class="tags"><span>CSS</span><span>Estilo</span></div>
+                </div>
+                <div class="card">
+                    <h3>Aprendendo</h3>
+                    <p>Estudando todos os dias para me tornar programadora.</p>
+                    <div class="tags"><span>Estudos</span><span>Programação</span></div>
+                </div>
+                <div class="card destaque">
+                    <h3>Banco de Dados</h3>
+                    <p>Aprendendo a organizar e consultar dados com MySQL.</p>
+                    <div class="tags"><span>MySQL</span><span>Banco de Dados</span></div>
+                </div>
+            </div>
+        </section>
 
-<div class="cards">
-  <div class="card">
-  <h3>HTML</h3>
-  <p>Aprendendo a estruturar páginas web com tags e conteúdo.</p>
-  <div class="tags">
-    <span>HTML</span>
-    <span>Estrutura</span>
-  </div>
-</div>
-<div class="card">
-  <h3>CSS</h3>
-  <p>Aprendendo a deixar as páginas bonitas com cores e layout.</p>
-  <div class="tags">
-    <span>CSS</span>
-    <span>Estilo</span>
-  </div>
-</div>
-<div class="card">
-  <h3>Aprendendo</h3>
-  <p>Estudando todos os dias para me tornar programadora.</p>
-  <div class="tags">
-    <span>Estudos</span>
-    <span>Programação</span>
-  </div>
-</div>
-  <div class="card destaque">
-  <h3>Banco de Dados</h3>
-  <p>Aprendendo a organizar e consultar dados com MySQL.</p>
-  <div class="tags">
-    <span>MySQL</span>
-    <span>Banco de Dados</span>
-  </div>
-</div>
-  
-
-</section> 
         <section>
             <h2>Hobbies</h2>
             <ul class="lista-hobbies">
@@ -75,13 +61,12 @@
                 <li>Séries</li>
             </ul>
         </section>
+
         <section id="contato">
             <h2>Entre em contato</h2>
-            
             <form action="#" method="post">
                 <fieldset>
                     <legend>Seus dados</legend>
-
                     <div>
                         <label for="nome">Nome:</label><br>
                         <input type="text" id="nome" name="nome" required>
@@ -97,19 +82,15 @@
                         <input type="text" id="assunto" name="assunto" required>
                     </div>
                 </fieldset>
-
                 <br>
-
                 <fieldset>
                     <legend>Mensagem</legend>
                     <div>
                         <label for="mensagem">Mensagem:</label><br>
-                        <textarea id="mensagem" name="mensagem" rows="6" cols="40" required></textarea>
+                        <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
                     </div>
                 </fieldset>
-
                 <br>
-
                 <div>
                     <button type="submit">Enviar</button>
                     <button type="reset">Limpar</button>
